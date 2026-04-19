@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { useAuth } from "../hooks/useAuth";
-import "./Navbar.css";
+import "./navbar.css";
 
 const Navbar = () => {
   const { user, handleLogout } = useAuth();
